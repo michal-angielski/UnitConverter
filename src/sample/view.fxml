@@ -12,13 +12,13 @@
    <center>
       <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
         <tabs>
-          <Tab fx:id="temp_celsius" text="Temperature">
+          <Tab text="Temperature">
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
                         <VBox layoutX="14.0" layoutY="14.0" prefHeight="354.0" prefWidth="437.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="20.0">
                            <children>
-                              <TextField promptText="Celsius" VBox.vgrow="ALWAYS">
+                              <TextField fx:id="temp_celsius" promptText="Celsius" VBox.vgrow="ALWAYS">
                                  <VBox.margin>
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
@@ -38,13 +38,13 @@
                      </children></AnchorPane>
             </content>
           </Tab>
-          <Tab fx:id="currency_pln" text="Currency">
+          <Tab text="Currency">
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
                         <VBox layoutX="14.0" layoutY="14.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="20.0">
                            <children>
-                              <TextField promptText="PLN" VBox.vgrow="ALWAYS">
+                              <TextField fx:id="currency_pln" promptText="PLN" VBox.vgrow="ALWAYS">
                                  <VBox.margin>
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
@@ -69,18 +69,18 @@
                      </children></AnchorPane>
             </content>
           </Tab>
-            <Tab fx:id="volume_ml" text="Volume">
+            <Tab text="Volume">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
                         <VBox layoutX="14.0" layoutY="14.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="20.0">
                            <children>
-                              <TextField promptText="[ml]" VBox.vgrow="ALWAYS">
+                              <TextField fx:id="volume_ml" promptText="[ml]" VBox.vgrow="ALWAYS">
                                  <VBox.margin>
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
                               </TextField>
-                              <TextField fx:id="volume_cl" promptText="[cll]" VBox.vgrow="ALWAYS">
+                              <TextField fx:id="volume_cl" promptText="[cl]" VBox.vgrow="ALWAYS">
                                  <VBox.margin>
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
@@ -100,13 +100,13 @@
                      </children></AnchorPane>
                </content>
             </Tab>
-            <Tab fx:id="mass_mg" text="Mass">
+            <Tab text="Mass">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
                         <VBox layoutX="14.0" layoutY="14.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="20.0">
                            <children>
-                              <TextField promptText="[mg]" VBox.vgrow="ALWAYS">
+                              <TextField fx:id="mass_mg" promptText="[mg]" VBox.vgrow="ALWAYS">
                                  <VBox.margin>
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
@@ -244,7 +244,7 @@
                      <children>
                         <VBox layoutX="14.0" layoutY="14.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="20.0">
                            <children>
-                              <TextField fx:id="data_B" promptText="[B]" VBox.vgrow="ALWAYS">
+                              <TextField fx:id="data_b" promptText="[B]" VBox.vgrow="ALWAYS">
                                  <VBox.margin>
                                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                                  </VBox.margin>
